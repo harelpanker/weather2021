@@ -18,6 +18,6 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 0 10px;
 `;
 export default WeatherApp;
