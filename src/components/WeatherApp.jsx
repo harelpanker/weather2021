@@ -19,5 +19,9 @@ const Container = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 0 10px;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: flex-start;
+  }
 `;
 export default WeatherApp;
